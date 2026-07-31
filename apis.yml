@@ -1,7 +1,25 @@
 aid: mogassam
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mogassam.png
 name: Mogassam
-description: Mogassam is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mogassam is a digital dentistry company building all-in-one dental 3D
+  printing hardware and software for chairside, single-visit treatment. Its products
+  include the DentCase automated all-in-one 3D printer with integrated CAM, automatic
+  washing, and post-curing, the Microdent 1 Pro printer, and the DentPrint dental 3D
+  printing software, used to produce dentures, dental models, surgical guides, and
+  provisional and permanent restorations. The company was surfaced as a 500 Global
+  portfolio company and added to the API Evangelist network. No public API, SDK, or
+  developer documentation was found at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/mogassam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Dental
+- 3D Printing
+- Digital Dentistry
+- Healthcare
+- Manufacturing
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mogassam-domain-security.yml
 - type: Website
   url: https://mogassam.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
